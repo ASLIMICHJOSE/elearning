@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Importance of eLearning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>The Importance of eLearning</h1>
+        <p>Unlock the Future of Education with eLearning</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="content">
+                <h2>What is eLearning?</h2>
+                <p>eLearning refers to the use of electronic media and information and communication technologies (ICT) in education. It allows students to learn at their own pace, from anywhere, and at any time, breaking geographical and time barriers.</p>
+            </div>
+        </section>
+
+        <section class="why-elearning">
+            <h2>Why is eLearning Important?</h2>
+            <div class="reasons">
+                <div class="reason">
+                    <h3>Accessible</h3>
+                    <p>eLearning can be accessed from anywhere in the world, making it easier for anyone to get an education regardless of location.</p>
+                </div>
+                <div class="reason">
+                    <h3>Cost-Effective</h3>
+                    <p>Compared to traditional classroom-based education, eLearning offers a more affordable alternative without the need for expensive materials or commuting costs.</p>
+                </div>
+                <div class="reason">
+                    <h3>Flexible Learning</h3>
+                    <p>eLearning allows students to set their own pace, meaning they can review lessons as needed and take their time with challenging material.</p>
+                </div>
+                <div class="reason">
+                    <h3>Engaging</h3>
+                    <p>Interactive content, quizzes, and videos make learning more enjoyable and effective, keeping students engaged in their studies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="quiz">
+            <h2>Test Your Knowledge!</h2>
+            <p>Let’s test your knowledge on eLearning with a quick quiz. Ready?</p>
+            <button id="startQuizBtn">Start Quiz</button>
+
+            <div id="quizContainer" style="display: none;">
+                <p id="question"></p>
+                <button class="answerBtn" onclick="checkAnswer(true)">True</button>
+                <button class="answerBtn" onclick="checkAnswer(false)">False</button>
+            </div>
+
+            <p id="quizResult" style="display: none;"></p>
+            <p id="score" style="display: none;">Your Score: <span id="points">0</span> points</p>
+        </section>
+    </main>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
